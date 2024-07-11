@@ -6,14 +6,14 @@ const GenderBox = () => {
         <div className='form-control'>
             <label className='label gap-2 cursor-pointer'>
                 <span className='label-text'>Male</span>
-                <input type="checkbox" className='checkbox border-slate-900'/>
+                <input type="checkbox" className='checkbox checkbox-primary'/>
             </label>
         </div>
         <div>
         <div className='form-control'>
             <label className='label gap-2 cursor-pointer'>
                 <span className='label-text'>Female</span>
-                <input type="checkbox" className='checkbox border-slate-900'/>
+                <input type="checkbox" className='checkbox checkbox-primary'/>
             </label>
         </div>
         </div>
@@ -22,3 +22,25 @@ const GenderBox = () => {
 }
 
 export default GenderBox
+
+
+// const GenderBox = () => {
+//     return (
+//       <div className='flex'>
+//           <div className='form-control'>
+//               <label className='label gap-2 cursor-pointer'>
+//                   <span className='label-text'>Male</span>
+//                   <input type="checkbox" className='checkbox checkbox-primary'/>
+//               </label>
+//           </div>
+//           <div>
+//           <div className='form-control'>
+//               <label className='label gap-2 cursor-pointer'>
+//                   <span className='label-text'>Female</span>
+//                   <input type="checkbox" className='checkbox checkbox-primary'/>
+//               </label>
+//           </div>
+//           </div>
+//       </div>
+//     )
+//   }
