@@ -4,7 +4,7 @@ import MessageInput from './MessageInput'
 import { TbMessages } from "react-icons/tb";
 
 const MessageContainer = () => {
-  const noChatSelected = true;
+  const noChatSelected = false;
   return (
     <div className='md:min-w-[32rem] flex flex-col'>
       {noChatSelected ? <NoChatSelected /> : (
