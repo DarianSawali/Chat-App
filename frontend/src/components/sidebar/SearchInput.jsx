@@ -6,7 +6,7 @@ const SearchInput = () => {
   return (
     <form className='flex gap-2 items-start'>
         <input type="text" placeholder='Search...' className='input input-bordered rounded-full'/>
-        <button type='submit' className='btn btn-circle bg-purple-500 text-white hover:bg-transparent flex items-center justify-center'>
+        <button type='submit' className='btn btn-circle border-transparent bg-purple-900 text-white hover:bg-transparent hover:border-white flex items-center justify-center'>
             <IoSearch className='w-6 h-6 outline-none'/>
         </button>
     </form>
