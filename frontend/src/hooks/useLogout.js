@@ -3,7 +3,7 @@ import { useAuthContext } from '../context/AuthContext';
 
 const useLogout = () => {
     const [loading, setLoading] = useState(false);
-    const {setAuthUser} = useAuthContext();
+    const { setAuthUser } = useAuthContext();
 
     const logout = async () => {
         setLoading(true);
@@ -20,7 +20,7 @@ const useLogout = () => {
 
             localStorage.removeItem("chat-user");
             setAuthUser(null);
-            
+
         } catch (error) {
             toast.error(error.message)
         } finally {
