@@ -33,7 +33,7 @@ const SignUp = () => {
                 <form onSubmit={handleSubmit}>
                     <div className='mt-2'>
                         <label className='label p-2'>
-                            <span className='text-base label-text'>Full Name</span>
+                            <span className='text-base label-text text-gray-300'>Full Name</span>
                         </label>
                         <input
                             type='text'
@@ -45,7 +45,7 @@ const SignUp = () => {
                     </div>
                     <div className='mt-2'>
                         <label className='label p-2'>
-                            <span className='text-base label-text'>Username</span>
+                            <span className='text-base label-text text-gray-300'>Username</span>
                         </label>
                         <input
                             type='text'
@@ -57,7 +57,7 @@ const SignUp = () => {
                     </div>
                     <div className='mt-2'>
                         <label className='label p-2'>
-                            <span className='text-base label-text'>Password</span>
+                            <span className='text-base label-text text-gray-300'>Password</span>
                         </label>
                         <input
                             type='password'
@@ -69,7 +69,7 @@ const SignUp = () => {
                     </div>
                     <div className='mt-2'>
                         <label className='label p-2'>
-                            <span className='text-base label-text'>Confirm Password</span>
+                            <span className='text-base label-text text-gray-300'>Confirm Password</span>
                         </label>
                         <input
                             type='password'
@@ -79,12 +79,12 @@ const SignUp = () => {
                             onChange={(e) => setInputs({ ...inputs, confirmPassword: e.target.value })}
                         />
                     </div>
-                    <div className='p-2'>
+                    <div className='p-2 text-gray-300'>
                         <GenderBox onCheckboxChange={handleCheckbox} selectedGender={inputs.gender} />
                     </div>
                     <Link
                         to='/login'
-                        className='p-1 text-sm hover:underline hover:text-purple-500 focus:text-purple-500 mt-1 inline-block'
+                        className='p-1 text-sm hover:underline hover:text-purple-500 focus:text-purple-500 mt-1 inline-block text-gray-300'
                     >
                         Already have an account?
                     </Link>
