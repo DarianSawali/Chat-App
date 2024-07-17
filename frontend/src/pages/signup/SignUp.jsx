@@ -79,7 +79,7 @@ const SignUp = () => {
                             onChange={(e) => setInputs({ ...inputs, confirmPassword: e.target.value })}
                         />
                     </div>
-                    <div className='p-2 text-gray-300'>
+                    <div className='p-2 '>
                         <GenderBox onCheckboxChange={handleCheckbox} selectedGender={inputs.gender} />
                     </div>
                     <Link
